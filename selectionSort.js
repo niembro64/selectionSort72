@@ -14,7 +14,8 @@ const insertionSort = (a) => {
         }
 
         // switch lowest with leftmost in subarray
-        console.log(`@ i:${i} switched ${a[i]} with ${a[low]}`)
+        console.log(`@@ i:${i} low:${low} switched ${a[i]} with ${a[low]}`)
+        console.log()
         temp = a[i];
         a[i] = a[low];
         a[low] = temp;
